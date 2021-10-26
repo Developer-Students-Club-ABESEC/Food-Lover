@@ -1,0 +1,19 @@
+.images
+{
+  height:350px;
+  margin-top: -76px;
+}
+#anchors
+{
+  text-decoration: none;
+  color:white;
+}
+#svgs
+{
+  margin-top: -12px;
+  padding-left: 15px;
+  padding-right: 15px;
+  height:80px;
+  width:80px;
+  color:white;
+}
