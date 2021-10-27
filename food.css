@@ -1,19 +1,30 @@
-.images
-{
-  height:350px;
-  margin-top: -76px;
+.images {
+  width: 100%;
+  height: auto;
 }
-#anchors
-{
+#anchors {
   text-decoration: none;
-  color:white;
+  color: white;
 }
-#svgs
-{
+#svgs {
   margin-top: -12px;
   padding-left: 15px;
   padding-right: 15px;
-  height:80px;
-  width:80px;
-  color:white;
+  height: 80px;
+  width: 80px;
+  color: white;
+}
+
+.headline {
+  height: 75vh;
+  width: 100vw;
+  padding: 3rem 15%;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  background-color: antiquewhite;
+}
+
+* {
+  /* border: 1px solid red; */
 }
