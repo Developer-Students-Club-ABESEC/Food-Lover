@@ -1,19 +1,149 @@
-.images
-{
-  height:350px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.images {
+  height: 350px;
   margin-top: -76px;
 }
-#anchors
-{
+#anchors {
   text-decoration: none;
-  color:white;
+  color: white;
 }
-#svgs
-{
-  margin-top: -12px;
-  padding-left: 15px;
-  padding-right: 15px;
-  height:80px;
-  width:80px;
-  color:white;
+#svgs {
+  margin: 1rem;
+  padding: 1rem;
+  height: 4rem;
+  width: 4rem;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+#svgs:hover {
+  color: rgb(255, 64, 64);
+}
+
+nav {
+  box-shadow: 0 10px 30px rgba(202, 202, 202, 0.678);
+  width: 100%;
+}
+
+.nav {
+  background: white;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+
+.nav-a {
+  color: grey;
+  text-decoration: none;
+  font-size: 1.1rem;
+  margin: 0.5rem;
+}
+
+.nav-a:hover {
+  color: rgb(255, 64, 64);
+}
+
+.card {
+  border: none;
+  box-shadow: 0 0 30px rgba(202, 202, 202, 0.678);
+  transition: all 0.7s ease;
+}
+
+.card:hover {
+  transform: translateY(-0.5rem);
+}
+
+.img-con {
+  height: 100%;
+  overflow: hidden;
+  padding: 0;
+}
+
+.img-fluid {
+  width: 100%;
+  height: 22rem;
+  object-fit: cover;
+  transition: all 0.5s ease;
+}
+
+.img-fluid:hover {
+  transform: scale(130%);
+}
+
+.contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.offer h3{
+  animation: offer 1s ease-in-out alternate infinite;
+}
+
+@keyframes offer {
+  from{
+    font-weight: 600;
+  }
+  to{
+    font-weight: 700;
+  }
+}
+
+.details{
+  margin-bottom: 3rem;
+}
+
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background: rgb(24, 24, 24);
+  width: 100%;
+}
+
+.svgs {
+  display: flex;
+  justify-content: center;
+}
+
+.foot-a {
+  font-size: 1.2rem;
+  padding: 1rem;
+  transition: all 0.3s ease;
+}
+
+#anchors:hover {
+  color: rgb(255, 64, 64);
+}
+
+.foot-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.copyright {
+  font-size: 0.7rem;
+  padding: 0 1rem 1rem 1rem;
+  color: white;
+}
+
+.order {
+  border: none;
+  border-radius: 5px;
+  background: white;
+  box-shadow: 0 0 30px rgba(202, 202, 202, 0.678);
+  transition: all 0.3s ease;
+  color: rgb(255, 64, 64);
+}
+
+.order:hover {
+  background: whitesmoke;
+  box-shadow: none;
 }
