@@ -147,3 +147,78 @@ footer {
   background: whitesmoke;
   box-shadow: none;
 }
+
+
+.carousel-inner .carousel-item{
+	height: 100vh !important;
+}
+.banner{
+	height: 100vh;
+	background-position: center;
+  
+}
+.main-menu-logo{
+	position: fixed;
+	top:0;
+	z-index: 100;
+	width: 100%;
+	background: #b1b1b14f;
+}
+.navbar-brand{
+	font-size: 30px;
+	font-weight: bold;
+	color: rgb(199, 17, 17) !important;
+}
+.nav-item a{
+	display: block;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 0px 20px !important;
+	color: rgb(112, 54, 54) !important;
+}
+.nav-item a:hover{
+	color: #000 !important;
+}
+.carousel-caption{
+	bottom: 40%;
+	display: block !important;
+}
+.carousel-caption h1{
+	font-size: 100px;
+	letter-spacing: 2px;
+	color:  #ffb221;
+ 
+}
+.carousel-caption h2{
+	font-size: 80px;
+	letter-spacing: 2px;
+	color:  hsl(0, 100%, 92%);
+	font: 900 80px Montserrat;
+	text-shadow: 0 15px 25px rgba(29, 28, 28, 0.3);
+}
+.carousel-caption h3{
+	font-size: 60px;
+	letter-spacing: 2px;
+	color:  #c49dff;
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+  .carousel-caption{
+    bottom: 30%;
+    display: block !important;
+  }
+  
+  .carousel-caption h1{
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+  .carousel-caption h2{
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+  .carousel-caption h3{
+    font-size: 18px;
+    letter-spacing: 2px;
+  }
+
+}
