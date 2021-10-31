@@ -9,10 +9,8 @@
       integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
       crossorigin="anonymous"
     />
-    <link
-      rel="stylesheet"
-      href="./food.css"
-    />
+
+    <link rel="stylesheet" href="./food.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -24,10 +22,10 @@
   </head>
   <body>
     <!-- Navigation Menu -->
-    <nav class="navbar navbar-expand-lg navbar-light">
+   <div class="nav"><nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
         <a class="navbar-brand ms-5" href="#"
-          ><img src="./images/logo.png" alt="" width="120" height="80"
+          ><img src="./images/logo.png" class="logo" alt="logo" width="120" height="80"
         /></a>
         <button
           class="navbar-toggler"
@@ -44,45 +42,46 @@
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0 pe-4">
             <li class="nav-item">
               <a
-                class="nav-link active"
-                style="color: purple"
+                class="nav-a"
+ 
                 aria-current="page"
                 href="#ToHome"
                 >Home</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link active" style="color: purple" href="#ToAboutus"
+              <a class="nav-a" href="#ToAboutus"
                 >About Us</a
               >
             </li>
             <li class="nav-item">
               <a
-                class="nav-link active"
-                style="color: purple"
+                class="nav-a"
+ 
                 href="#ToExplorefood"
                 >Explore Food</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link active" style="color: purple" href="#"
+              <a class="nav-a" href="#"
                 >Reviews</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link active" style="color: purple" href="#ToFaq"
+              <a class="nav-a" href="#ToFaq"
                 >FAQ</a
               >
             </li>
           </ul>
           <form class="d-flex">
-            <button class="btn btn-outline-danger mt-3" type="submit">
+            <button class="order m-3 p-3" type="submit">
               1200-233-456
             </button>
           </form>
         </div>
       </div>
     </nav>
+
 
     <!-- Slider Menu -->
      
@@ -107,7 +106,7 @@
             Lorem ipsum donor sit amet, consecturur, adipsing elit,eitam pet
             pursus a dio finibus bibdendum
           </p>
-          <button type="button" class="btn btn-danger m-3 p-3">
+          <button type="button" class="order m-3 p-3">
             Order Now
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -126,7 +125,7 @@
               />
             </svg>
           </button>
-          <button type="button" class="btn btn-danger m-3 p-3">
+          <button type="button" class="order m-3 p-3">
             Order Now
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -257,18 +256,18 @@
     <div class="container mt-4" id="ToAboutus">
       <div class="card mb-3">
         <div class="row g-0">
-          <div class="col-md-4">
+          <div class="col-md-4 img-con">
             <img src="./images/img/img-1.png" class="img-fluid" alt="..." />
           </div>
           <div class="col-md-8">
             <div class="card-body">
-              <h5 class="card-title">
+              <h5 class="card-title text-black">
                 <em
                   >We Pride Ourselves On Making Real Food From The Best
                   Ingredients.</em
                 >
               </h5>
-              <p class="card-text" style="color: red">
+              <p class="card-text" >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
                 et purus a odio finibus bibendum in sit amet leo. Mauris feugiat
                 erat tellus.
@@ -276,7 +275,7 @@
               <p class="card-text">
                 <small class="text-muted">Last updated 3 mins ago</small>
               </p>
-              <button class="btn btn-dark" type="button" name="button">
+              <button class="order p-2 m-1" type="button" name="button">
                 Learn More
               </button>
             </div>
@@ -286,15 +285,15 @@
     </div>
     <div class="container mt-4">
       <div class="card mb-3">
-        <div class="row g-0">
-          <div class="col-md-8 p-5">
-            <h5 class="card-title">
+        <div class="row g-0 .d-flex align-items-center">
+          <div class="col-md-8 p-3">
+            <h5 class="card-title text-black">
               <em
                 >We Make Everything By Hand With The Best Possible
                 Ingredients.</em
               >
             </h5>
-            <p class="card-text" style="color: red">
+            <p class="card-text" >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et
               purus <br />
               a odio finibus bibendum in sit amet leo. Mauris feugiat erat
@@ -347,14 +346,12 @@
                 /></svg>
               >purus a odio finibus bibendum
             </p>
-            <button type="button" class="btn btn-dark" name="button">
+            <button type="button" class="order p-2 m-1" name="button">
               Learn More
             </button>
           </div>
-          <div class="col-md-4">
-            <div class="card-body">
-              <img src="./images/img/img-3.jpg" class="img-fluid" alt="..." />
-            </div>
+          <div class="col-md-4 img-con">
+            <img src="./images/img/img-3.jpg" class="img-fluid" alt="..." />
           </div>
         </div>
       </div>
@@ -362,8 +359,8 @@
 
     <!-- section 3 -->
     <div class="container mt-5 text-center" id="ToExplorefood">
-      <h2><em>Explore Our Foods</em></h2>
-      <p style="color: red; font-size: 18px">
+      <h2 class="text-danger"><em>Explore Our Foods</em></h2>
+      <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus
         a odio finibus bibendum <br />
         in sit amet leo. Mauris feugiat erat tellus. Far far away, behind the
@@ -384,7 +381,7 @@
               <h5 class="card-title">Rainbow Vegetable Sandwich</h5>
               <p>Time: 15 - 20 Minutes | Serves: 1</p>
               <p>$10.50 <del>16.70</del></p>
-              <button type="button" class="btn btn-danger" name="button">
+              <button type="button" class="order m-1 p-2 name="button">
                 Order Now
               </button>
             </div>
@@ -400,7 +397,7 @@
               <h5 class="card-title">Vegetarian Burger</h5>
               <p>Time: 30 - 45 Minutes | Serves: 1</p>
               <p>$20.50 <del>26.70</del></p>
-              <button type="button" class="btn btn-danger" name="button">
+              <button type="button" class="order m-1 p-2 name="button">
                 Order Now
               </button>
             </div>
@@ -420,7 +417,7 @@
               <h5 class="card-title">Raspberry Stuffed French Toast</h5>
               <p>Time: 30 - 45 Minutes | Serves: 1</p>
               <p>$30.50 <del>36.70</del></p>
-              <button type="button" class="btn btn-danger" name="button">
+              <button type="button" class="order m-1 p-2 name="button">
                 Order Now
               </button>
             </div>
@@ -434,7 +431,7 @@
 
     <!-- section 4 -->
 
-    <h3 class="text-center mt-5" id="ToFaq">
+    <h3 class="text-center mt-5 text-danger" id="ToFaq">
       <em>Frequently Asked Questions</em>
     </h3>
     <div class="container mt-5">
@@ -481,41 +478,48 @@
     </div>
 
     <!-- footer -->
-    <div class="container mt-5 text-center">
-      <h3>
-        <em
-          >Hurry Up! Subscribe Our Newsletter And <br />
-          Get 25% Off</em
-        >
-      </h3>
-      <p style="color: red; font-size: 25px">
-        Limited time offer for this month. No credit card required.
-      </p>
-      <div class="row mt-5">
-        <div class="col-md-8">
+    <div class="container mt-5 text-center contact">
+      <div class="offer">
+        <h3 class="text-danger">
+          <em
+            >Hurry Up! Subscribe Our Newsletter And <br />
+            Get 25% Off</em
+          >
+        </h3>
+        <p>
+          Limited time offer for this month. No credit card required.
+        </p>
+      </div>
+      <div class="row details d-flex flex-column align-items-center mt-5">
+        <div class="w-50">
           <label for="inputPassword2" class="visually-hidden"
             >Email Address Here</label
           >
           <input
-            type="password"
+            
             class="form-control"
             id="inputPassword2"
             placeholder="Email Address Here"
           />
         </div>
-        <div class="col-md-4">
-          <button type="submit" class="btn btn-danger mb-3">Subscribe</button>
+        <div class="d-flex justify-content-center m-3">
+          <button type="submit" class="btn btn-danger">Subscribe</button>
         </div>
       </div>
     </div>
-    <div class="container mt-4" style="background-color: #8236cb">
-      <div class="d-flex justify-content-center">
-        <a class="p-5" id="anchors" href="#">Register</a>
-        <a class="p-5" id="anchors" href="#">Forum</a>
-        <a class="p-5" id="anchors" href="#">Affiliate</a>
-        <a class="p-5" id="anchors" href="#">FAQ</a>
+
+    <footer>
+      <div class="foot-box">
+        <div class="d-flex justify-content-center foot-a-box">
+          <a class="foot-a" id="anchors" href="#">Register</a>
+          <a class="foot-a" id="anchors" href="#">Forum</a>
+          <a class="foot-a" id="anchors" href="#">Affiliate</a>
+          <a class="foot-a" id="anchors" href="#">FAQ</a>
+        </div>
+        <p class="copyright">© 2021. Foodies. All rights reserved.</p>
       </div>
-      <div class="d-flex justify-content-center">
+
+      <div class="svgs">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="16"
@@ -569,10 +573,7 @@
           />
         </svg>
       </div>
-      <p class="text-center mt-3 pb-4" style="color: white">
-        © 2021. Foodies. All rights reserved.
-      </p>
-    </div>
+    </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
@@ -584,3 +585,5 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
 </html>
+
+
